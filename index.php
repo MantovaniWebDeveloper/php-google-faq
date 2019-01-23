@@ -39,12 +39,26 @@
              <h2><?php echo $dato["domanda"]; ?></h2>
            </section>
             <section class="risposta">
-              <p><?php echo $dato["risposta"]; ?></p> 
+              <p><?php echo $dato["risposta"]; ?></p>
            </section>
           <?php } ?>
         </div>
       </div>
     </main>
+    <footer>
+      <div id="wrapFooter">
+        <div class="container">
+          <nav id="navFooter">
+            <ul>
+              <li><a href="">Google</a></li>
+              <li><a href="">About Google</a></li>
+              <li><a href="">Privacy</a></li>
+              <li><a href="">Terms</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>

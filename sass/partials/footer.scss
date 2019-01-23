@@ -1,0 +1,21 @@
+footer {
+  height: 60px;
+  background-color: $grigioChiaro;
+  width: 100%;
+  nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    ul{
+      list-style-type: none;
+      li {
+        display: inline-block;
+        font-size: 10px;
+        a {
+          color: $grigioScuro;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
