@@ -18,6 +18,7 @@
 header {
   height: 100px;
   width: 100%;
+  border-bottom: 1px solid lightgrey;
 }
 
 header #topHeader {
@@ -56,6 +57,8 @@ header #subHeader {
 }
 
 header #subHeader .wrapNav {
+  display: flex;
+  align-items: center;
   height: 100%;
 }
 
@@ -68,8 +71,45 @@ header #subHeader .wrapNav .nav li {
   margin-right: 45px;
 }
 
+header #subHeader .wrapNav .nav li:last-child {
+  border-bottom: 3px solid blue;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: blue;
+}
+
 header #subHeader .wrapNav .nav li a {
   color: #5f6368;
   text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+main #wrapAll {
+  height: 100%;
+  padding-top: 100px;
+}
+
+main #wrapAll .domanda {
+  padding-bottom: 40px;
+}
+
+main #wrapAll .domanda h2 {
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+main #wrapAll .risposta {
+  padding-bottom: 40px;
+}
+
+main #wrapAll .risposta p {
+  font-size: 14px;
+  color: #5f6368;
 }
 

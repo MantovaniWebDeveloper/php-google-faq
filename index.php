@@ -24,22 +24,27 @@
               <li><a href="">Privacy Policy</a></li>
               <li><a href="">Terms of Service</a></li>
               <li><a href="">Technologies</a></li>
-              <li><a href="">FAQ</a></li>
+              <li class="selezionato"><a  href="">FAQ</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
     <?php include("db.php"); ?>
-     <div class="container">
-        <?php foreach ($database as $k => $dato) { ?>
-         <div class="domanda">
-          <?php echo $dato["domanda"]; ?>
-         </div>
-         <div class="risposta">
-          <?php echo $dato["risposta"]; ?>
-         </div>
-       <?php } ?>
-     </div>
+    <main>
+      <div id="wrapAll">
+        <div  class="container">
+           <?php foreach ($database as $k => $dato) { ?>
+            <section class="domanda">
+             <h2><?php echo $dato["domanda"]; ?></h2>
+           </section>
+            <section class="risposta">
+              <p><?php echo $dato["risposta"]; ?></p> 
+           </section>
+          <?php } ?>
+        </div>
+      </div>
+    </main>
+
   </body>
 </html>

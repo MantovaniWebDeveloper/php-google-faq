@@ -1,0 +1,23 @@
+main {
+  height: 100%;
+  width: 100%;
+   & #wrapAll {
+     height: 100%;
+     padding-top: 100px;
+      .domanda {
+        padding-bottom: 40px;
+        h2 {
+          color: $nero;
+          font-weight: bold;
+          font-size: 24px;
+        }
+      }
+      .risposta {
+        padding-bottom: 40px;
+        p {
+          font-size: 14px;
+          color: $grigioScuro;
+        }
+      }
+   }
+}

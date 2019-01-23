@@ -1,6 +1,7 @@
 header {
   height: 100px;
   width: 100%;
+  border-bottom: 1px solid $grigioChiaro;
   & #topHeader {
     height: 60px;
     width: 100%;
@@ -20,7 +21,7 @@ header {
       align-items: center;
       height: 100%;
       h2 {
-        color: $grigioChiaro;
+        color: $grigioScuro;
         font-size: 22px;
         margin-left: 10px;
         font-weight: lighter;
@@ -29,21 +30,34 @@ header {
     }
   }
   & #subHeader {
+
     height: 40px;
     width: 100%;
     & .wrapNav {
+      display: flex;
+      align-items: center;
       height: 100%;
       .nav {
         list-style-type: none;
         li {
           display: inline-block;
           margin-right: 45px;
-          a {
-            color: $grigioChiaro;
-            text-decoration: none;
+          &:last-child {
+          border-bottom: 3px solid blue;
+            padding-top: 10px;
+          padding-bottom: 5px;
+          color: blue;
           }
+          a {
+            color: $grigioScuro;
+            text-decoration: none;
+            font-weight: bold;
+          }
+
         }
+
       }
+
     }
   }
 }
