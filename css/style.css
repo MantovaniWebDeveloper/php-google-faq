@@ -9,3 +9,21 @@
   margin: 0 auto;
 }
 
+header {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+
+header #topHeader {
+  height: 60px;
+  width: 100%;
+  background-color: green;
+}
+
+header #subHeader {
+  height: 40px;
+  width: 100%;
+  background-color: orange;
+}
+

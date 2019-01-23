@@ -1,0 +1,15 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  & #topHeader {
+    height: 60px;
+    width: 100%;
+    background-color: green;
+  }
+  & #subHeader {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+  }
+}
