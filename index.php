@@ -7,13 +7,15 @@
   </head>
   <body>
     <header>
-      <div id="topHeader">
-        <div class="wrapLogo">
-          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
+      <div class="container-large">
+        <div id="topHeader">
+          <div class="wrapLogo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
+          </div>
         </div>
-      </div>
-      <div id="subHeader">
+        <div id="subHeader">
 
+        </div>
       </div>
     </header>
     <?php include("db.php"); ?>

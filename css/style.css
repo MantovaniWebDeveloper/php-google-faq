@@ -5,20 +5,33 @@
 }
 
 .container {
-  width: 80%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-large {
+  width: 95%;
   margin: 0 auto;
 }
 
 header {
   height: 100px;
   width: 100%;
-  background-color: red;
 }
 
 header #topHeader {
   height: 60px;
   width: 100%;
-  background-color: green;
+}
+
+header #topHeader .wrapLogo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header #topHeader .wrapLogo img {
+  height: 25px;
 }
 
 header #subHeader {

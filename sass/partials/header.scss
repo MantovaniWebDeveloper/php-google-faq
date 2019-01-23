@@ -1,11 +1,17 @@
 header {
   height: 100px;
   width: 100%;
-  background-color: red;
   & #topHeader {
     height: 60px;
     width: 100%;
-    background-color: green;
+    .wrapLogo {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      img {
+        height: 25px;
+      }
+    }
   }
   & #subHeader {
     height: 40px;
