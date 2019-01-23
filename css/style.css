@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -25,18 +26,50 @@ header #topHeader {
 }
 
 header #topHeader .wrapLogo {
-  height: 100%;
   display: flex;
   align-items: center;
+  height: 100%;
+  float: left;
 }
 
 header #topHeader .wrapLogo img {
   height: 25px;
 }
 
+header #topHeader .wrapLogoPrivacy {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header #topHeader .wrapLogoPrivacy h2 {
+  color: #5f6368;
+  font-size: 22px;
+  margin-left: 10px;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
 header #subHeader {
   height: 40px;
   width: 100%;
-  background-color: orange;
+}
+
+header #subHeader .wrapNav {
+  height: 100%;
+}
+
+header #subHeader .wrapNav .nav {
+  list-style-type: none;
+}
+
+header #subHeader .wrapNav .nav li {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+header #subHeader .wrapNav .nav li a {
+  color: #5f6368;
+  text-decoration: none;
 }
 
